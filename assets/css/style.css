@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@700&display=swap');
+
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2rem;
+    color: #999;
+    margin: 1em 2em 1em 2em;
+}
+
+main section:nth-of-type(1){
+    background: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 5rem;
+    width: 50vh;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 40%;
+}
+
+
+
+h3{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 3% 0 3% 0;
+}
+
+p{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0 5% 0 5%;
+}
+
+main section:nth-of-type(2){
+    
+    text-align: center;
+    margin: 5%;
+}
+
+img{
+    margin: 1.2em;
+}
+
+h4{
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+li{
+    margin: 2%;
+}
+
+li:nth-of-type(-n+4)::after{
+    content: 'SOLD OUT';
+    color: red;
+    font-weight: 800;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+li:nth-of-type(n+5)::after{
+    content: 'AVAILIBLE';
+    color: green;
+    font-weight: 800;
+    padding: 5px;
+    border: 2px solid green;
+}
+footer{
+    text-align: center;
+    padding: 3em;
+}
+
+h5{
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+}
+
+a{
+    font-family: 'Cinzel', serif;
+    font-size: 1.3em; 
+}
+
+footer img{
+    height: 4em;
+    width: 4em;
+    border-radius: 200px;
+    
+}
